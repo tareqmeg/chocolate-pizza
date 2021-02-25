@@ -4,6 +4,19 @@
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/style.css">
     <title>chocolate-pizza</title>
+    <!-- i dont know how put background-image in css , because this i want only style hr in style in html -->
+    <style>
+        .hrline {
+            width: 100%;
+            height: 20px;
+            border: none;
+            margin-bottom: 1%;
+            background-repeat: repeat-x;
+            background-image: url(./IMG/hr-img.png);
+            background-color: transparent;
+            background-size: 15px
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -73,9 +86,34 @@
         </section>
         <p><img src="IMG/hr-img.png" alt=""></p>
 
+        <!-- saja works -->
+
+        <hr class="hrline">
+
+        <div class="foter">
+            <div class="all">
+                <img class="van" src="./IMG/van-pic.png" alt="">
+                <p class="p"><span class="span"> vanessa stevenson </span><br> <span class="last"> enthusiat,
+                        photography fan. Add a pinch of raw
+                        foodism and that's<br> pretty much who I am. </span></p>
+            </div>
+            <div class="button1">
+                <button class="button">share recipe</button>
+            </div>
+        </div>
+
     </main>
 
-    <footer>
+     <footer>
+        <div class="grey">
+            <div class="line"></div>
+            <img src="./IMG/small-logo.png">
+            <div class="line"></div>
+          </div>
+
+          <div class="finalcss">
+            <p>Delicious &copy; 2013 .All rights Reserved <br> Proudly published with Ghost</p>
+        </div>
 
     </footer>
     
