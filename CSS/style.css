@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-color: rgb(236, 230, 230);
+    width: 100%;
+}
+body header img {
+    float: left;
+    width: 42px;
+    height: 45px;
+  }
