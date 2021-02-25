@@ -2,6 +2,13 @@
     box-sizing: border-box;
     
 }
+body{
+    width: 90%;
+    display: block;
+    margin-left: 70px;
+    
+    
+}
 
 header{
     background-color: rgb(236, 230, 230);
@@ -12,3 +19,69 @@ body header img {
     width: 42px;
     height: 45px;
   }
+
+  .foter{
+    margin-top: 30px;
+    float: left;
+    display: inline-block;
+    width: 100%;
+}
+.van{
+    float: left;
+    margin-left: 30px;
+}
+.p{
+    margin-left: 120px;
+}
+.span{
+
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.last{
+    font-size: 20px;
+    color: grey;
+}
+.grey{
+    display:flex;
+    align-items: center;
+    margin-top: 30px;
+     }
+.line{
+    height: 1px;
+   flex: 1;
+    background-color: #999;
+     }
+.grey img{
+    width: 30px;
+   margin-left: 10px;
+   margin-right: 10px;
+     }
+footer{
+    clear: both;
+}
+.all{
+width: clac(100%/2);
+float: left;
+margin-bottom: 35px;
+    
+ }
+.button1{
+     margin-right: 150px;
+ }
+.button{
+    width: calc(100%/6);
+    float: right;
+    margin-top: 13px;
+    padding: 20px;
+    text-transform: uppercase;
+    background-color: rgb(214, 52, 52);
+    color: white;
+ }
+
+ .finalcss{
+    text-align: center;
+    color: grey;
+    margin-top: 30px;
+}
